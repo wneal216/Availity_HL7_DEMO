@@ -1,0 +1,88 @@
+{
+  "Patient": [
+    {
+      "id": "|",
+      "resourceType": "Patient",
+      "name": [
+        {
+          "family": "|",
+          "given": [
+            null
+          ]
+        }
+      ],
+      "gender": "unknown",
+      "birthDate": "1"
+    },
+    {
+      "id": "|",
+      "resourceType": "Patient",
+      "name": [
+        {
+          "family": "|",
+          "given": [
+            null
+          ]
+        }
+      ],
+      "gender": "unknown",
+      "birthDate": "1"
+    },
+    {
+      "id": "|",
+      "resourceType": "Patient",
+      "name": [
+        {
+          "family": "|",
+          "given": [
+            null
+          ]
+        }
+      ],
+      "gender": "unknown",
+      "birthDate": "1"
+    },
+    {
+      "id": "123456",
+      "resourceType": "Patient",
+      "name": [
+        {
+          "family": "Doe",
+          "given": [
+            "John"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "19800101"
+    },
+    {
+      "id": "123456",
+      "resourceType": "Patient",
+      "name": [
+        {
+          "family": "Doe",
+          "given": [
+            "John"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "19800101"
+    },
+    {
+      "id": "123456",
+      "resourceType": "Patient",
+      "name": [
+        {
+          "family": "Doe",
+          "given": [
+            "John"
+          ]
+        }
+      ],
+      "gender": "male",
+      "birthDate": "19800101"
+    }
+  ]
+}
