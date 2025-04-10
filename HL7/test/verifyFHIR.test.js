@@ -15,3 +15,18 @@ describe('FHIR Patient Posts', () => {
     }
   });
 });
+
+/**
+ * This script is a Mocha + Chai test to verify FHIR Patient data.
+ * 
+ * It makes a GET request to the local FHIR mock API (`localhost:3001/Patient`)
+ * and checks:
+ * - The response status is 200 (OK)
+ * - The data returned is an array
+ * - The last patient object includes expected FHIR fields like:
+ *   - resourceType: "Patient"
+ *   - gender
+ *   - birthDate
+ * 
+ * This ensures that the Mirth ➝ FHIR transformation is producing valid output.
+ */

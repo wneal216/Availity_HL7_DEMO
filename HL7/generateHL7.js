@@ -18,3 +18,17 @@ function generateHL7() {
 }
 
 module.exports = generateHL7;
+
+/**
+ * This module generates a randomized HL7 ADT^A01 message using fake patient data.
+ * 
+ * It uses the `@faker-js/faker` library to create:
+ * - A UUID for patient ID
+ * - Random first and last name
+ * - A random date of birth (formatted as YYYYMMDD)
+ * - A gender (M or F)
+ * 
+ * Then it builds the message in standard HL7 format, wrapped in MLLP
+ * start and end characters, and returns the full message string. 
+ * I can also use this to build out other HL7 message types like ORI or MDM.
+ */
